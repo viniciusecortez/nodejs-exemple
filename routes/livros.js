@@ -1,6 +1,6 @@
 const router = require('express').Router();
 let Livro = require("../models/livro.model");
-const fs = require('fs');
+const fs = require('fs'); 
 
 function carregar() {
     let db = fs.readFileSync('banco/livros.json');
